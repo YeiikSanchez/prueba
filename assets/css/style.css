@@ -1,0 +1,77 @@
+body {
+  font-family: "Cabin", sans-serif;
+  font-family: "Lobster", cursive;
+}
+body * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+nav {
+  background-color: #373a3c;
+  color: #ffffff;
+  font-family: "Cabin", sans-serif;
+}
+.logo {
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+}
+header {
+  font-family: "Cabin", sans-serif;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+h1,
+h5 {
+  font-weight: bold;
+}
+h5 {
+  font-size: 14pt;
+}
+.desarrollo {
+  font-family: "Cabin", sans-serif;
+  font-weight: regular;
+  text-align: left;
+}
+.recetas {
+  font-family: "Cabin", sans-serif;
+  text-align: left;
+}
+h6 {
+  font-weight: bold;
+  font-size: 18px;
+}
+p {
+  font-size: 6px;
+}
+
+.suscribete {
+  font-family: "Cabin", sans-serif;
+  font-weight: bold;
+}
+.obten {
+  font-family: "Cabin", sans-serif;
+  font-weight: regular;
+}
+.Noticias {
+  padding-top: 80px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 80px;
+}
+.empezar {
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Cabin", sans-serif;
+  font-weight: regular;
+}
+.ricomida {
+  font-family: "Lobster", cursive;
+}
+
+ul {
+  list-style-type: none;
+}
+.card-text {
+  font-size: 14px;
+}
