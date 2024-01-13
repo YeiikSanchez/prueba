@@ -1,17 +1,14 @@
-$(".card-title").click(function () {
+$(".card-title").click(() => {
     $(".card-text").toggle("slow");
 });
-$(".send-mail").click(function () {
+
+$(".send-mail").click(() => {
     alert("El correo fue enviado correctamente...");
 });
-$(".title-recipe").dblclick(function () {
-    $(this).css({
-        color: "red"
-    });
-});
 
-$(".title-recipe2").dblclick(function () {
+$(".title-recipe, .title-recipe2").dblclick(function () {
     $(this).css({
-        color: "red"
+        color: "red",
+        "text-decoration-color": "red"
     });
 });
